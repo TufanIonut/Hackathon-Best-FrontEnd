@@ -43,7 +43,7 @@ export class NavbarComponent {
   }
 
   goToHome() {
-    this.router.navigate(['']);
+    this.router.navigate(['/courses']);
   }
 
   goToCourses() {
@@ -70,5 +70,5 @@ export class NavbarComponent {
     this.router.navigate(['/teacherpage']);
   }
 
-  search(event) {}
+  search(event) { }
 }

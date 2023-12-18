@@ -177,6 +177,7 @@ nav {
   border-color: transparent transparent transparent white;
   margin-left: 5px;
 }
+
 .lazy-v img {
   position: absolute;
   top: 0;
@@ -187,11 +188,13 @@ nav {
   opacity: 0.95;
   z-index: -1;
 }
+
 #kaurukavideo .lazy-v p {
   color: #fff;
   display: flex;
   justify-content: center;
 }
+
 .lazy-v iframe {
   position: absolute;
   bottom: 0;
@@ -199,6 +202,7 @@ nav {
   width: 100%;
   height: 100%;
 }
+
 .servideo {
   display: flex;
   flex-wrap: wrap;
@@ -218,15 +222,18 @@ nav {
   display: flex;
   transition: 0.4s ease;
 }
+
 .servideo .change-video:hover,
 .servideo .change-video.c-aktif {
   background: rgb(99 77 235);
   transition: 0.4s ease;
 }
+
 .servideo .change-video:before {
   content: "";
   opacity: 0;
 }
+
 .servideo .change-video.c-aktif:before {
   content: "";
   margin-right: 5px;
@@ -379,6 +386,7 @@ nav {
 #form_container input[type="text"]:focus {
   outline: none;
 }
+
 #star_rating {
   margin-bottom: 10px;
 }
@@ -423,6 +431,7 @@ nav {
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 .comment {
   display: flex;
   flex-direction: column;
